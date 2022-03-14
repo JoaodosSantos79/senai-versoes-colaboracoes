@@ -1,4 +1,4 @@
-
+Essa é a segunda parte da funcionalidade:
 
 COMANDOS IMPORTANTES DO GIT
 
@@ -20,3 +20,10 @@ git commit –m “digite o que foi adicionado”(versão) - cria uma nova vers�
 Faz um comentário sobre o que foi feito ou adicionado na versão.git
 
 git log - mostra os commits(versões) feitas
+
+git show  <código do commit> – mostra os detalhes de um commit(versão)
+
+git remote add origin <link do repositório github> - vai vincular seu repositório local ao repositório do github(nuvem)
+
+git push –u origin main – envia os commits(versões) do projeto local para a nuvem(github)
+
