@@ -1,17 +1,22 @@
 
+
 COMANDOS IMPORTANTES DO GIT
 
-git init - inicia o versionamento em um projeto
-
-git status - mostra se o projeto(arquivo) está versionado. Ao dar enter e aparecer na tela > on branch main/master bem como outras informaçoes.
-Mostra o estado atual do repositório.
+git init - inicia o versionamento em um projeto, cria o repositório
 
 clear - limpa as informacoes no prompt da git
 
-git add . - adiciona todas as mudanças feitas no projeto
+git add . - adiciona todos arquivos a fila de salvamento
 
-git commit - cria uma nova versão
+git add  nome do arquivo.extenção (ex.: texto.txt) – adiciona um único arquivo a fila de salvamento
 
-git commit -m "digite o que foi adicionado" - Faz um comentário sobre o que foi feito ou adicionado na versão.git
+git status – mostra o estado atual do repositório
+Mostra se o projeto(arquivo) está versionado. 
+Mostra em qual branch(ramo) estamos trabalhando > on branch main/master 
+Mostra de há mudanças a serem salvas > Change to be committed(mudanças a serem salvas) Se houver aparecerá em verde - new file(novo doc.):  nome arq.extenção(ex:texto.txt)
+Não mostra nada sobre commit ou quantas commits foram feitas
+
+git commit –m “digite o que foi adicionado”(versão) - cria uma nova versão no projeto e salva todos os arquivos que foram adicionados.
+Faz um comentário sobre o que foi feito ou adicionado na versão.git
 
 git log - mostra os commits(versões) feitas
